@@ -49,14 +49,14 @@ const Footer = () => {
                 <Phone className="w-5 h-5 text-kenya-400" />
                 <div>
                   <p className="text-gray-400">Phone</p>
-                  <a href="tel:+254700123456" className="hover:text-kenya-400 transition-colors">+254 700 123 456</a>
+                  <a href="tel:+254700123456" className="hover:text-kenya-400 transition-colors">+254 746 527 253</a>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-kenya-400" />
                 <div>
                   <p className="text-gray-400">Email</p>
-                  <a href="mailto:info@premiumcarskenya.com" className="hover:text-kenya-400 transition-colors">info@premiumcarskenya.com</a>
+                  <a href="mailto:nyamuehud@gmail.com" className="hover:text-kenya-400 transition-colors">nyamuehud@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

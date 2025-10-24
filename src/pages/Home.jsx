@@ -216,7 +216,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="mt-8 text-kenya-200">
-            <p>📞 Call us: <a href="tel:+254700123456" className="text-white font-semibold">+254 700 123 456</a></p>
+            <p>📞 Call us: <a href="tel:+254700123456" className="text-white font-semibold">+254 746 527 253</a></p>
           </div>
         </div>
       </section>

@@ -227,7 +227,7 @@ const SellCar = () => {
                     {[
                       { label: 'Your Name *', name: 'name', type: 'text', placeholder: 'Your full name' },
                       { label: 'Email Address *', name: 'email', type: 'email', placeholder: 'your.email@example.com' },
-                      { label: 'Phone Number *', name: 'phone', type: 'tel', placeholder: '+254 700 123 456' },
+                      { label: 'Phone Number *', name: 'phone', type: 'tel', placeholder: '+254 746 527 253' },
                       { label: 'Location *', name: 'location', type: 'select', options: ['Nairobi', 'Mombasa', 'Kisumu', 'Nakuru', 'Eldoret', 'Thika', 'Machakos'] },
                     ].map((field) => (
                       <div key={field.name}>

@@ -27,7 +27,7 @@ const Header = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
             <div className="flex items-center space-x-4">
               <a href="tel:+254700123456" className="flex items-center hover:text-kenya-200">
                 <Phone className="w-4 h-4 mr-1" />
-                <span>+254 700 123 456</span>
+                <span>+254 746 527 253</span>
               </a>
               <span>Mon-Sun: 8:00 AM - 8:00 PM</span>
             </div>
