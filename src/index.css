@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Kenyan themed utility classes */
+.btn-primary {
+  @apply transition-all duration-200 font-semibold py-3 px-6 rounded-lg bg-kenya-600 hover:bg-kenya-700 text-white focus:outline-none focus:ring-2 focus:ring-kenya-500 focus:ring-offset-2;
+}
+
+.btn-secondary {
+  @apply transition-all duration-200 font-semibold py-3 px-6 rounded-lg border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-kenya-500 focus:ring-offset-2;
+}
+
+.card-hover {
+  @apply transition-all duration-200 hover:shadow-lg hover:-translate-y-1;
+}
+
+.section-padding {
+  @apply py-12 px-4 sm:px-6 lg:px-8;
+}
+
+/* Vehicle type badges - FIXED with available color shades */
+.badge-sedan {
+  @apply bg-blue-100 text-blue-700;
+}
+
+.badge-suv {
+  @apply bg-green-100 text-green-700;
+}
+
+.badge-pickup {
+  @apply bg-amber-100 text-amber-700;
+}
+
+.badge-luxury {
+  @apply bg-purple-100 text-purple-700;
+}
+
+/* Price styling */
+.price {
+  @apply text-2xl font-bold text-kenya-700;
+}
+
+.old-price {
+  @apply text-lg text-gray-500 line-through;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-kenya-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-kenya-400;
+}
+
+/* Loading animation */
+.loading-spinner {
+  @apply inline-block w-6 h-6 border-2 border-kenya-200 border-t-kenya-600 rounded-full animate-spin;
+}
+
+/* Mobile first responsive design */
+@media (max-width: 640px) {
+  .car-grid {
+    @apply grid-cols-1 gap-4;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .car-grid {
+    @apply grid-cols-2 gap-6;
+  }
+}
+
+@media (min-width: 1025px) {
+  .car-grid {
+    @apply grid-cols-3 gap-8;
+  }
+}
+
+/* Kenyan flag inspired elements */
+.kenya-flag-line {
+  background: linear-gradient(90deg, black 33%, red 33%, red 66%, green 66%);
+}
+
+/* WhatsApp button styling */
+.whatsapp-btn {
+  @apply bg-green-600 hover:bg-green-700 text-white;
+}
+
+/* Emergency contact for premium cars */
+.emergency-badge {
+  @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-red-100 text-red-700;
+}
